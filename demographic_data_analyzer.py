@@ -58,8 +58,6 @@ def calculate_demographic_data(print_data=True):
         ].value_counts().idxmax()
     )
 
-    # DO NOT MODIFY BELOW THIS LINE
-
     if print_data:
         print("Number of each race:\n", race_count) 
         print("Average age of men:", average_age_men)
